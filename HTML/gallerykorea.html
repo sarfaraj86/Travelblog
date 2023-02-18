@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Gallery</title>
+    <link rel="stylesheet" href="../CSS/navbar.css">
+    <link rel="stylesheet" href="../CSS/gallerykorea.css">
+    <script src="../JavaScript/gallerykorea.js" defer></script>
+</head>
+<body onload="colo()">
+    <div id="a">
+        <h1 id="heading">Travelled Image Gallery</h1>
+    </div>
+    <div id="bigscreen" class="fullScreenImg" style="display:none;" onclick="imgV()">
+        <img id="fullImg" src="../Asset/Images/a.jpg">
+        <h1 id="imgheading">Heading</h1>
+        <p id="imgparagraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis porro libero repellendus consectetur impedit? Expedita commodi mollitia vitae libero magni!</p>
+    </div>
+    <div class="navbar">
+        <ul class="Mainlist">
+            <li class="li"><a href="../HTML/Index.html">Home</a></li>
+            <li class="li" id="sublistplace">Places
+                <ul id="Sublist">
+                    <a href="../HTML/gallery.html"><li class="sli">India</li></a>
+                    <a href="../HTML/gallerydubai.html"><li class="sli">Dubai</li></a>
+                    <a href="../HTML/gallerysrilanka.html"><li class="sli">Srilanka</li></a>
+                    <a href="../HTML/gallerythailand.html"><li class="sli">Thailand</li></a>
+                    <a href="../HTML/gallerykorea.html"><li class="sli">Korea</li></a>
+                </ul>
+            </li>
+            <li class="li"><a href="../HTML/letstravel-about.html">info</a></li>
+            <li class="li"><a href="./loginforall.html">Logout</a></li>
+        </ul>
+    </div>
+    <div class="bodyOfGallary">
+        <img src="../Asset/Images/ag.jpg" onclick="imgK(this.src,'Toilets','Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium, inventore.')">
+        <img src="../Asset/Images/ah.jpg" onclick="imgK(this.src,'Night view','Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium, inventore.')">
+        <img src="../Asset/Images/ag.jpg" onclick="imgK(this.src,'Toilets','Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium, inventore.')">
+        <img src="../Asset/Images/ai.jpg" onclick="imgK(this.src,'Amazing','Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium, inventore.')">
+        <img src="../Asset/Images/aj.jpg" onclick="imgK(this.src,'Amazing','Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium, inventore.')">
+        <img src="../Asset/Images/ak.jpg" onclick="imgK(this.src,'Amazing','Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium, inventore.')">
+        <img src="../Asset/Images/al.jpg" onclick="imgK(this.src,'Amazing','Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium, inventore.')">
+        <img src="../Asset/Images/am.jpg" onclick="imgK(this.src,'Amazing','Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium, inventore.')">
+        <img src="../Asset/Images/an.jpg" onclick="imgK(this.src,'Amazing','Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium, inventore.')">
+    </div>
+</body>
+</html>

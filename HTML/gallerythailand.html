@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Gallery</title>
+    <link rel="stylesheet" href="../CSS/navbar.css">
+    <link rel="stylesheet" href="../CSS/gallerysrilanka.css">
+    <script src="../JavaScript/gallerysrilanka.js" defer></script>
+</head>
+<body onload="colo()">
+    <div id="a">
+        <h1 id="heading">Travelled Image Gallery</h1>
+    </div>
+    <div id="bigscreen" class="fullScreenImg" style="display:none;" onclick="imgV()">
+        <img id="fullImg" src="../Asset/Images/a.jpg">
+        <h1 id="imgheading">Heading</h1>
+        <p id="imgparagraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis porro libero repellendus consectetur impedit? Expedita commodi mollitia vitae libero magni!</p>
+    </div>
+    <div class="navbar">
+        <ul class="Mainlist">
+            <li class="li"><a href="../HTML/Index.html">Home</a></li>
+            <li class="li" id="sublistplace">Places
+                <ul id="Sublist">
+                    <a href="../HTML/gallery.html"><li class="sli">India</li></a>
+                    <a href="../HTML/gallerydubai.html"><li class="sli">Dubai</li></a>
+                    <a href="../HTML/gallerysrilanka.html"><li class="sli">Srilanka</li></a>
+                    <a href="../HTML/gallerythailand.html"><li class="sli">Thailand</li></a>
+                    <a href="../HTML/gallerykorea.html"><li class="sli">Korea</li></a>
+                </ul>
+            </li>
+            <li class="li"><a href="../HTML/letstravel-about.html">info</a></li>
+            <li class="li"><a href="./loginforall.html">Logout</a></li>
+        </ul>
+    </div>
+    <div class="bodyOfGallary">
+        <img src="../Asset/Images/y.jpg" onclick="imgK(this.src,'Elephant','Two Elephant are playing with their trunks in the middle of the way')">
+        <img src="../Asset/Images/z.jpg" onclick="imgK(this.src,'Goat','The seems like it is possing for the photo it looks like there are waiting for the food')">
+        <img src="../Asset/Images/aa.jpg" onclick="imgK(this.src,'Squireel','The Squireel seems like it is seaching for the food it looks good')">
+        <img src="../Asset/Images/ab.jpg" onclick="imgK(this.src,'lion','We all  know the king of the jungle is lion it has more characterstices that king has so it is called as the king of the jungle')">
+        <img src="../Asset/Images/ac.jpg" onclick="imgK(this.src,'cat','Dont say anything just say meow meow to its cutness')">
+        <img src="../Asset/Images/ad.jpg" onclick="imgK(this.src,'monkey','A Good family picture which will remebers us of our family')">
+        <img src="../Asset/Images/ae.jpg" onclick="imgK(this.src,'Panda','We all knows pands are the cutiest and funniest animals ')">
+        <img src="../Asset/Images/af.jpg" onclick="imgK(this.src,'Panda','We all knows pands are the cutiest and funniest animals ')">
+    </div>
+</body>
+</html>

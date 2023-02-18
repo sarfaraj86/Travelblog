@@ -1,0 +1,100 @@
+*{
+    padding: 0px;
+    margin:0px;
+}
+#header{
+    width:100%;
+    height:400px;
+    letter-spacing: 25px;
+    color: transparent;
+    font-size: 0px;
+    background-image:url(../Asset/Images/left.png),url(../Asset/Images/right.png), url(../Asset/Images/manonmountain.jpg);
+    background-size:70% 400px,70% 400px,100% 800px;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0px 10px 5px rgb(31, 28, 28);
+    background-position: 0px 40px,right bottom,0px -180px;
+    transition: background-position 1s,color 3s,text-shadow 3s,font-size 2s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#header:hover{
+    font-size:30px;
+    color:black;
+    text-shadow: 2px 2px 5px skyblue,-2px -2px 5px bisque,0px 0px 10px black;
+    background-position: -230px 20px,630px 20px,0px -180px;
+}
+ .videolayoutleftside{
+    width:100%;
+    height:450px;
+    float: left;
+    position: relative;
+} 
+.leftvideo{
+    width:30%;
+    position: absolute;
+    top:20%;
+    left:5%;
+    border-width: 20px;
+    border-radius: 10px;
+}
+.rightHeading{
+    font-size: 50px;
+    position: absolute;
+    right:20%;
+    top:8%;
+    color:rgb(200, 246, 246);
+    text-shadow: 5px 5px 5px black;
+}
+.rightparagrpah{
+    font-size: 30px;
+    position: absolute;
+    width:50%;
+    top: 25%;
+    right:4%;
+    text-align: justify;
+    text-indent: 30px;
+}
+.videolayoutrightside
+{
+    width:100%;
+    height:550px;
+    float: left;
+    background-color: aquamarine;
+    position:relative;
+}
+.rightvideo
+{
+    width:30%;
+    position: absolute;
+    top:30%;
+    right:5%;
+    border-width: 20px;
+    border-radius: 10px;
+}
+.leftHeading{
+    font-size: 50px;
+    position: absolute;
+    left:20%;
+    top:8%;
+    color:rgb(200, 246, 246);
+    text-shadow: 5px 5px 5px black;
+}
+.leftparagrpah
+{
+    font-size: 30px;
+    position: absolute;
+    width:50%;
+    top: 30%;
+    left:4%;
+    text-align: justify;
+    text-indent: 30px;
+}
+#webbody
+{
+    position:absolute;
+    z-index:0;
+    width: 100%;
+}
+
